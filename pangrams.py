@@ -1,0 +1,1 @@
+print('pangram' if len(set(x if x.isalpha() else 0 for x in raw_input().strip().lower() ))==27 else 'not pangram')
